@@ -1,0 +1,46 @@
+.navbar-nav > li{
+    float: none;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  
+.bounceInRight {
+    animation-duration: 4s;
+}
+
+.bounceInLeft {
+    animation-duration: 3s;
+}
+
+h1 { 
+    color: rgb(235,12,12);
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 20px;
+    line-height: 1;
+    text-align: left;
+    padding-top: 10px;
+}
+
+h3 { 
+    color: greenyellow;
+    font-family: "Great Vibes", cursive;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    line-height: 5px;
+    text-align: left;
+}
+
+.container {width:99%; height:99%} 
+
+/*
+.main-header {
+    width: 100%;
+    background-image: url('../assets/img/icon/bg-header3.jpg');
+    background-size: cover;
+}
+
+*/

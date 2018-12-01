@@ -1,0 +1,44 @@
+<header class="main-header" style="width: 100%; background-image: url('../assets/img/icon/bg-header3.jpg'); background-size: cover;">
+  <div class="container-fluid">
+    <div class="row" style="padding: 20px" >
+      <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 animated bounceInRight">
+        <img src="assets/img/icon/ds-icon.png" style="width:100px">
+      </div>
+      <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 animated bounceInLeft">
+        <h1>DREAM STUDIO</h1>
+        <h3>We shape your dreams</h3>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Dream Studio™</a>
+      </div>
+      <div class="collapse navbar-collapse justify-content-center" id="myNavbar">
+           <ul class="nav navbar-nav" routerLinkActive="active">
+            <li class="nav-item active"><a class="nav-link" routerLink="/portfolio">PORTFOLIO</a></li>
+            <li class="nav-item active"><a class="nav-link" routerLink="/photography">PHOTOGRAPHY</a></li>
+            <li class="nav-item active"><a class="nav-link" routerLink="/weddingfilms">WEDDING FILMS</a></li>
+            <li class="nav-item active"><a class="nav-link" routerLink="/pricing">PRICING</a></li>
+            <li class="nav-item active"><a class="nav-link" routerLink="/faqs">FAQs</a></li>
+            <li class="nav-item active"><a class="nav-link" routerLink="/we">WE</a></li>
+            <li class="nav-item active"><a class="nav-link" routerLink="/contact">CONTACT</a></li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <div style="margin-top: 50px;">
+    <router-outlet></router-outlet>
+  </div>
+</main>
+
+<br><hr>
+<footer class="footer text-center">
+  <div class="footer-copyright text-center py-3">
+    <span class="text-muted">Made with ♥ in Coimbatore, INDIA • Product of Dream Studio™, © 2018</span>
+  </div>
+</footer>
